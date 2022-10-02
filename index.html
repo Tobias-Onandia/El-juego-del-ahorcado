@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>El juego del ahorcado</title>
+</head>
+<body>
+    <header>
+        <div id="content-button0">
+            <input type="button"   id="newGame"  value="Iniciar partida">
+            <input type="button"   id="newWord" value="Agregar palabra">
+        </div>
+    </header>
+
+  <main id="div" hidden>
+    <form class="main" >
+        <div>
+            <input type="text"  id="input" placeholder=" Ingrese el texto">
+        </div>
+        <div class="content-button">
+            <input type="button"   id="save"  value="Guardar y comenzar">
+            <input type="button"   id="cant" value="cancelar">
+        </div>
+    </form>
+  </main>
+
+  <aside class="content-main" hidden>
+     <div class="hombre-ahorcado"><img id="hombre" alt="hombre-ahorcado" ></div>    
+    
+            <div class="adivinado"></div>
+
+            <div class="errado"></div>
+
+        <form class="buttons" action="javascript:void(0)">
+            <input type="button" class="btn-azul" value="Nuevo juego"  onclick="nuevoJuego()">
+            <input type="button" class="btn-blanco" value="Desistir" >
+        </form> 
+  </aside>
+    <script src="code.js"></script>
+</body>
+</html> 

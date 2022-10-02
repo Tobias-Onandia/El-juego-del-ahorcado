@@ -1,0 +1,144 @@
+body{
+    background-color: #f3f5fc;
+}
+
+
+html{
+    font-size: 16px;
+}
+
+header{
+    display: block;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#content-button0{
+    margin-top: 10%;
+}
+
+#newGame{
+    display: block;
+    margin-bottom: 50px;
+    background-color: #002462;
+    color: #fff;
+}
+
+.main {
+    margin-top: 5%;
+    display: inline-block;
+    width: 60%;
+    height: 500px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+
+#input{
+    border:none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 32px;
+    color: #0A3871;
+    outline: none;
+    width: 312px;
+}
+
+
+#input::placeholder{
+    color: #0A3871;
+}
+   
+#input:hover{
+    border-bottom: 2px solid #0B3971;
+}
+
+#input:focus{
+    border-bottom: 2px solid #0B3971;
+}
+
+
+.content-button{
+    position: relative;
+    margin-top: 40px;
+    top: 70%;
+}
+
+
+
+.content-main{
+    overflow-x:hidden
+}
+
+
+#hombre{
+    max-width: 100%;
+    max-height:100%;
+    width: 19.75rem;
+    height: 16.75rem;
+    background-image:#ddd;
+    display: inline-block;
+    object-fit: contain;
+}
+
+.hombre-ahorcado{
+    width: 100vw;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    background-color: white;
+}
+
+
+.adivinado {
+    text-align: center;
+    color: #002462;
+    font-size: 1.8rem;
+}
+
+.adivinado > span{
+    display: inline-block;
+    width: 4.5rem;
+    height: 4.5rem;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #002462;
+    border-bottom: 1px solid #002462;
+    margin-left: 0.4rem ;
+    line-height: 4.5rem;
+}
+
+.errado{
+    text-align: center;
+    margin-top: 1rem;
+    color: #242d34;
+}
+
+.errado > span{
+    margin-left: 1rem;
+}   
+
+.buttons{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+[type="button"]{
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid #0a3871;
+    cursor: pointer;
+    color: #0a3871;
+    margin-left: 2rem;
+}
+
+.btn-azul{
+    background-color: #0a3871;
+    color: #fff;
+    border-color: #000;
+}
